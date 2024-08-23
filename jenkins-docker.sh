@@ -22,7 +22,7 @@ sudo docker run \
 
   # Run the jenkins image
 
-  docker run \
+  sudo docker run \
   --name jenkins-blueocean \
   --restart=on-failure \
   --detach \
